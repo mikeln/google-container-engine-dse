@@ -62,7 +62,7 @@ resources:
             - /bin/bash
             - -e
             - -c
-            - apt-get update; apt-get -y install wget; wget https://raw.githubusercontent.com/mikeln/google-container-engine-dse/dse/scripts/opscenter.sh; chmod +x opscenter.sh; ./opscenter.sh
+            - apt-get update; apt-get -y install wget; wget https://raw.githubusercontent.com/mikeln/google-container-engine-dse/ddc/scripts/opscenter.sh; chmod +x opscenter.sh; ./opscenter.sh
 
 #
 # Seed service
@@ -143,5 +143,5 @@ resources:
             - /bin/bash
             - -e
             - -c
-            - apt-get update; apt-get -y install wget; wget https://raw.githubusercontent.com/mikeln/google-container-engine-dse/dse/scripts/dse.sh; chmod +x dse.sh; ./dse.sh
+            - apt-get update; apt-get -y install wget; wget https://raw.githubusercontent.com/mikeln/google-container-engine-dse/ddc/scripts/dse.sh; chmod +x dse.sh; ./dse.sh
 {% endfor %}
