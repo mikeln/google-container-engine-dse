@@ -5,5 +5,5 @@ resources:
 - name: datastax
   type: datastax.jinja
   properties:
-    clusterType: mikeln-clustername-type
+    clusterType: cluster-clustername-type
     numNodes: 4
