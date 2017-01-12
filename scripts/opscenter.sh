@@ -7,9 +7,9 @@ apt-get -y install sudo
 apt-get -y install unzip
 echo "done with prerequisites"
 
-wget https://github.com/mikeln/install-datastax-ubuntu/releases/download/v0.1-mln.1/dsc21.zip
-unzip dsc21.zip
-cd install-datastax-ubuntu-dsc21/bin
+wget https://github.com/mikeln/install-datastax-ubuntu/releases/download/v0.3-mln.1/dsc21sec.zip
+unzip dsc21sec.zip
+cd install-datastax-ubuntu-dsc21sec/bin
 
 cloud_type="gke"
 seed_nodes_dns_names=$SEED_NODE_SERVICE
