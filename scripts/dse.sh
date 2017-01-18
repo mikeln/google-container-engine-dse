@@ -9,9 +9,9 @@ apt-get -y install apt-transport-https
 apt-get -y install unzip
 echo "done with prerequisites"
 
-wget https://github.com/mikeln/install-datastax-ubuntu/releases/download/v0.3-mln.1/dsc21sec.zip
-unzip dsc21sec.zip
-cd install-datastax-ubuntu-dsc21sec/bin
+wget https://github.com/mikeln/install-datastax-ubuntu/releases/download/v0.4-mln.1/dsc21sec2.zip
+unzip dsc21sec2.zip
+cd install-datastax-ubuntu-dsc21sec2/bin
 
 cloud_type="gke"
 seed_nodes_dns_names=$SEED_NODE_SERVICE
